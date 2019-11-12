@@ -9,7 +9,7 @@ require('./routes')(app);
 
 
 app.get('/hellp', (req,res) => {
-    res.send('port 500')
+    res.send('port 5000')
 })
 
 app.listen(port, (err) => {
