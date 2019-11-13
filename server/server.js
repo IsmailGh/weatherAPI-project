@@ -8,10 +8,6 @@ app.use(express.json());
 require('./routes')(app); 
 
 
-app.get('/hellp', (req,res) => {
-    res.send('port 5000')
-})
-
 app.listen(port, (err) => {
     if(err) {console.log(err)}; 
     console.log('Listening on port ' + port); 
